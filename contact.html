@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - KeyMaster SEO Tools</title>
+  <meta name="description" content="Have questions or feedback about KeyMaster Keyword Tool? Get in touch with our team.">
+  <link rel="canonical" href="https://example.com/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FF6B00" stroke-width="2.5"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path><path d="M10 7v6l4 2"></path></svg>
+        Key<span>Master</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#researchTool" class="nav-link">Keyword Tool</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="index.html#researchTool" class="btn btn-primary btn-sm">Try Keyword Tool</a>
+        <div class="mobile-toggle">☰</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="padding: 4rem 0 3rem; text-align: center;">
+    <div class="container container-narrow">
+      <span class="section-subtitle">Get in Touch</span>
+      <h1 class="heading-xl">We'd Love to Hear From You</h1>
+      <p class="text-muted" style="margin-top: 0.5rem;">Need support, enterprise custom plans, or API key integration help?</p>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info Section -->
+  <main class="container" style="padding: 2rem 0 5rem;">
+    <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 3rem;">
+      <div class="glass-card" style="padding: 2.5rem;">
+        <h3 class="heading-md" style="margin-bottom: 1.5rem;">Contact Details</h3>
+        
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="font-size: 1rem; color: var(--primary);">📧 Email Support</h4>
+          <p class="text-muted">support@keymaster-seo.com</p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="font-size: 1rem; color: var(--primary);">🏢 Office Address</h4>
+          <p class="text-muted">100 Tech Plaza, Suite 400<br>San Francisco, CA 94107</p>
+        </div>
+
+        <div style="margin-bottom: 1.5rem;">
+          <h4 style="font-size: 1rem; color: var(--primary);">⏱️ Support Hours</h4>
+          <p class="text-muted">Monday - Friday: 9:00 AM - 6:00 PM EST</p>
+        </div>
+      </div>
+
+      <div class="glass-card" style="padding: 2.5rem;">
+        <h3 class="heading-md" style="margin-bottom: 1.5rem;">Send Us a Message</h3>
+        
+        <form onsubmit="event.preventDefault(); showToast('Thank you! Message sent successfully.'); this.reset();">
+          <div style="margin-bottom: 1rem;">
+            <label style="display: block; font-weight: 600; margin-bottom: 0.35rem;">Your Name</label>
+            <input type="text" class="search-input" style="background: var(--bg-alt); color: var(--secondary); border: 1px solid var(--border-color);" placeholder="John Doe" required>
+          </div>
+
+          <div style="margin-bottom: 1rem;">
+            <label style="display: block; font-weight: 600; margin-bottom: 0.35rem;">Email Address</label>
+            <input type="email" class="search-input" style="background: var(--bg-alt); color: var(--secondary); border: 1px solid var(--border-color);" placeholder="john@example.com" required>
+          </div>
+
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display: block; font-weight: 600; margin-bottom: 0.35rem;">Message</label>
+            <textarea rows="5" class="search-input" style="background: var(--bg-alt); color: var(--secondary); border: 1px solid var(--border-color);" placeholder="How can we help you?" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>© 2026 KeyMaster SEO Tools. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/ui.js"></script>
+</body>
+</html>
